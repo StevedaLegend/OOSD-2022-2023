@@ -38,18 +38,19 @@ public class HotelDriver {
 
         System.out.println(roomC);
         
+
         if (roomB.isOccupied())
+        {
 
             System.out.println("roomB is Occupied");
-        
+        }
         else 
-
+        {
             System.out.println("roomB is not Occupied");
 
             roomB.setOccupied(1);
 
             System.out.println("Room B is now in occupiation: " + roomB.getOccupied());
-      {}
+        }
     }
-
 }
